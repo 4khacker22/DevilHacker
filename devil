@@ -1,0 +1,23 @@
+clear
+
+toilet -f standard -F gay Devil
+
+echo -e '\e[1;34m '
+echo "     Dont forget to Subscribe 💔💔"
+echo ""
+
+
+sleep 5
+
+termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
+
+clear
+
+pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash
+
+clear
+
+rm -rf devil
+
+echo -e '\e[1;34m '
+echo "     Type ./start-kali.sh to start Kali Linux"
