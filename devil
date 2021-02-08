@@ -13,9 +13,13 @@ termux-open-url https://youtube.com/channel/UCtVKt69RRu9TOJFfk5neJEA
 
 clear
 
+cd $HOME
+
 pkg update -y && pkg install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash
 
 clear
+
+cd $HOME
 
 rm -rf devil
 
